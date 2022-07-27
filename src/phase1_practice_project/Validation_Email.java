@@ -16,8 +16,7 @@ public class Validation_Email {
 	    	System.out.println("Validated emailID");
 	    else
 	    	System.out.println("Invalid emailID"); 
-	}
-	
+	}	
 	public static void main(String args[]){
 		String email[]= {"ram@email.com","mani.2001@email.com",
 				           "shiva@email.com","lily.m@email.com",
