@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
+  
+ <hibernate-mapping> 
+
+<class name="practiceproject3.Product" table="productdetails">  
+	<id column="ProductId" name="id">  
+		<generator class="assigned"></generator>  
+	</id>  
+	<property column="ProductName" name="name"></property> 
+	<property column="ProductBrand" name="brand"></property>     
+	<property column="Price" name="price"></property>  
+	<property column="Quantity" name="quantity"></property>  
+</class> 
+	
+</hibernate-mapping>
